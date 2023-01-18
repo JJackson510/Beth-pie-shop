@@ -10,26 +10,31 @@ body {
     background-color: #a593c2;
 }
 
+#leftmenu {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
 nav {
     height: 60px;
     width: 1000px;
     margin: 0 auto 20px;
 }
 
-#div{
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#leftmenu{
-    float: left;
-    width: 30%;
-    margin-bottom: 20px;
-}
-
 .searchbox{
     padding: 5px;
     margin:10px 10px;
     width: 200%;
+}
+
+#main {
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
 }
